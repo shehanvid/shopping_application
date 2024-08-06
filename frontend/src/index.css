@@ -1,0 +1,91 @@
+
+label {
+  font-size: 20px;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+ 
+  background-color: #f0f4f8; 
+  font-family: 'Arial', sans-serif;
+}
+
+.container {
+  background-color: #ffffff;
+  padding: 40px 50px;
+  border-radius: 12px;
+  width: 100%;
+  max-width: 450px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.container > h1 {
+  margin-bottom: 25px;
+  color: #333333; 
+  text-align: center;
+}
+
+.container > form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.container div {
+  display: flex;
+  flex-direction: column;
+}
+
+.container input {
+  width: 100%;
+  font-size: 18px;
+  padding: 12px;
+  border: 1px solid #dcdcdc; 
+  border-radius: 5px;
+  outline: none;
+}
+
+.container input::placeholder {
+  font-size: 14px;
+  font-style: italic;
+  color: #a8a8a8; 
+}
+
+button {
+  background-color: #00796b; 
+  border: none;
+  font-size: 18px;
+  color: white;
+  border-radius: 5px;
+  padding: 12px;
+  cursor: pointer;
+  margin: 15px 0;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #004d40; 
+}
+
+.container span {
+  display: block;
+  text-align: center;
+  margin-top: 15px;
+  color: #00796b; 
+}
+
+.container span a {
+  color: #d84315; 
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.container span a:hover {
+  color: #bf360c; 
+}
